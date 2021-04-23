@@ -20,7 +20,7 @@ class AppBarWidget extends PreferredSize {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text.rich(TextSpan(
-                            text: "Olá",
+                            text: "Olá, ",
                             style: AppTextStyles.title,
                             children: [
                               TextSpan(
