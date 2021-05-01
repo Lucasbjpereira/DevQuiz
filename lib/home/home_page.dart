@@ -41,7 +41,7 @@ class _HomePageState extends State<HomePage> {
           child: Column(
             children: [
               SizedBox(
-                height: 24,
+                height: 34,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -80,6 +80,7 @@ class _HomePageState extends State<HomePage> {
                                 MaterialPageRoute(
                                     builder: (context) => ChallengePage(
                                           questions: e.questions,
+                                          title: e.title,
                                         )),
                               );
                             },
